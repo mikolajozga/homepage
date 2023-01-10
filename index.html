@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o mnie</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header">Mikołaj Ożga</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#o-mnie">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#moje-cele">Moje cele</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#javascript-przyklad">JavaScript - przykład</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#ulubione-utwory">Ulubione utwory</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <img class="section__image" width="360" src="https://i.postimg.cc/Gh2knzds/ja.jpg" alt="Moje zdjecie">
+            <div class="section__container">
+                <p class="section__paragraph">Młody, aspirujący <b>Frontend Developer</b>. Poza tym <i>freelancer</i> od 2019 roku
+                    <em>(aktualnie
+                        emerytowany)</em>. <br>Zajmowałem się montażem filmowym, grafiką oraz animacją. <br>Stopień
+                    <b>pro</b> w
+                    <i>Adobe Premiere Pro</i>, <b>zaawansowany</b> w <i>Adobe After Effects</i> i <b>podstawowy</b> w
+                    <i>Photoshopie</i>.
+                    <br>Mam na swoim koncie krótkotrwałe, oraz długerminowe współprace ze <em>znanymi</em> Youtuberami,
+                    <br>których aktywność na temten czas oscylowała w granicach nawet <strong>10 milionów wyświetleń
+                        miesięcznie.</strong> <br>Język angielski na poziomie <em>B2/C1</em>, oraz język niderlandzki na
+                    poziomie <i>beginner</i>.
+                </p>
+            </div>
+        </section>
+        <section class="section" id="zainteresowania">
+            <h3 class="section__header">Zainteresowania</h3>
+            <div class="section__container">
+                <p class="section__paragraph">Jestem <em>wielkim</em> fanem sportu jak i e-sportu. <b>Mistrzostwa Świata</b> w piłce
+                    nożnej czy skokach
+                    narciarskich
+                    <br>wzbudzają we mnie tyle samo emocji co <b>Mistrzostwa Świata</b> w gry komputerowe.
+                    <br>Sam <em>uwielbiam</em> grać w
+                    piłkę,
+                    jest to na pewno jeden z moich ulubionych sposobów spędzania wolnego czasu. <br>Hobbistycznie lubię
+                    usiąść
+                    sobie
+                    do wspomnianego już wyżej montażu filmowego. <br>O ile nie wykonuje tego już na pełen etat, to
+                    sprawia mi to
+                    wiele <em>frajdy</em>. <br>Dodatkowo codziennie wieczorem biegam, żeby spalić dodatkowe kalorie
+                    spożyte w
+                    ciągu dnia.
+                    <br>Warto dodać, że jestem <em>wielkim</em> miłośnikiem jedzenia.
+                </p>
+            </div>
+        </section>
+        <section class="section" id="moje-cele">
+            <h3 class="section__header">Moje cele</h3>
+            <div class="section__container">
+                <p class="section__paragraph">Przede wszystkim moim głównym celem jest skończyć kurs YouCode i znaleźć pracę jako <i>full time</i>
+                    programista.
+                    <br>Do tego chciałbym wnieść swój angielski na jeszcze wyższy poziom (perspektywa mówienia
+                    wszystkim, że
+                    umie
+                    się angielski w stopniu zaawansowanym jest kusząca).
+                </p>
+            </div>
+        </section>
+        <section class="section" id="javascript-przyklad">
+            <h3 class="section__header">JavaScript - przykład</h3>
+            <button class="section__button js-section__button">Zmień kolor strony na <span class="js-section__span">ciemny</span></button>
+        </section>
+        <section class="section" id="ulubione-utwory">
+            <h3 class="section__header">Tabela z ulubionymi utworami</h3>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione utwory</caption>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="col">Tytuł</th>
+                        <th class="table__cell table__header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__header" scope="col">Album</th>
+                        <th class="table__cell table__header" scope="col">Rok</th>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">Wildest Dreams</th>
+                        <td class="table__cell" rowspan="2">Taylor Swift</td>
+                        <td class="table__cell" rowspan="2">1989</td>
+                        <td class="table__cell" rowspan="2">2014</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header">Blank Space</th>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">Story of my life</th>
+                        <td class="table__cell">One Direction</td>
+                        <td class="table__cell">Midnight Memories</td>
+                        <td class="table__cell">2013</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">One Kiss</th>
+                        <td class="table__cell">Dua Lipa</td>
+                        <td class="table__cell">One Kiss</td>
+                        <td class="table__cell">2018</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">Industry Baby</th>
+                        <td class="table__cell">Lil Nas X</td>
+                        <td class="table__cell">Montero</td>
+                        <td class="table__cell">2021</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">Mood</th>
+                        <td class="table__cell">24kGoldn</td>
+                        <td class="table__cell">Mood</td>
+                        <td class="table__cell">2020</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">Unstopable</th>
+                        <td class="table__cell">Sia</td>
+                        <td class="table__cell">This Is Acting</td>
+                        <td class="table__cell">2016</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__cell table__header" scope="row">High Hopes</th>
+                        <td class="table__cell">Panic! at the Disco</td>
+                        <td class="table__cell">Pray for the Wicked</td>
+                        <td class="table__cell">2018</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <div class="footerOrnament">
+        <footer class="footer">
+            © Copyright by Mikołaj Ożga - wszystkie prawa zastrzeżone
+        </footer>
+    </div>
+</body>
+
+</html>

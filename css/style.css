@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.header {
+    color: rgb(167, 65, 87);
+}
+
+.section__header {
+    color: rgb(167, 65, 87);
+}
+
+
+.navigation__item {
+    list-style-type: none;
+}
+
+.navigation__link {
+    color:rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: rgb(1, 60, 136);
+}
+
+.navigation__link:focus {
+    outline: 1px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: rgb(75, 45, 0);
+}
+
+.section__image {
+    border: 3px solid rgb(167, 65, 87);
+    border-radius: 10px;
+    outline: 3px solid rgb(73, 73, 73);
+    outline-offset: 0px;
+    box-shadow: 0px 0px 29px -1px #494949;
+    max-width: 400px;
+    width: 100%;
+}
+
+.section__button {
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(167, 65, 87);
+    border-style: solid;
+}
+
+.ciemny {
+    background: rgb(66, 66, 66);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+    max-width: 950px;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__caption {
+    text-align: left;
+    color: rgb(167, 65, 87);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.table__header {
+    color: white;
+    background-color: rgb(167, 65, 87);
+}
+
+.tableRow:hover {
+    background: rgb(172, 171, 171);
+}
+
+.footer {
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+
+.footerOrnament {
+    width: 1000px;
+    background-color: rgb(167, 65, 87);
+    border: 2px solid black;
+    width: 100%;
+}
+
+.container {
+    overflow-x: auto;
+}
