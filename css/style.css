@@ -53,7 +53,7 @@ html {
 .section__image {
     border: 3px solid rgb(167, 65, 87);
     border-radius: 10px;
-    outline: 3px solid rgb(73, 73, 73);
+    outline: 3px solid rgb(26, 26, 26);
     outline-offset: 0px;
     box-shadow: 0px 0px 29px -1px #494949;
     max-width: 400px;

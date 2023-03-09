@@ -1,4 +1,4 @@
-console.log("Cześć!");
+
 
 let button = document.querySelector(".js-section__button");
 let body = document.querySelector(".body");
