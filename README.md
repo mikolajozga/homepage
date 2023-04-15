@@ -18,4 +18,4 @@
 - table with my favourite songs, singers and albums
 - button with simple Java.Script code.
 
-
+** Link to the page: https://mikolajozga.github.io/mikolajozga/ **
