@@ -12,10 +12,12 @@
 - my things of interest
 - my goals.
 
-### My project includes elements like:
+### My project includes elements and features like:
 - page navigation
 - photo of mine
 - table with my favourite songs, singers and albums
+- BEM
+- ES6
 - button with simple Java.Script code.
 
-**Link to the page: https://mikolajozga.github.io/mikolajozga/**
+**Link to the page: https://mikolajozga.github.io/homepage/**
