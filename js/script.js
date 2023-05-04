@@ -4,8 +4,8 @@
     }
 
     const toggleBackground = () => {
-        const body = document.querySelector(".body");
-        const themeName = document.querySelector(".js-section__span");
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-sectionSpan");
 
         body.classList.toggle("ciemny");
 
@@ -17,7 +17,7 @@
     }
 
     const init = () => {
-        const button = document.querySelector(".js-section__button");
+        const button = document.querySelector(".js-sectionButton");
 
         button.addEventListener("click", toggleBackground);
 
